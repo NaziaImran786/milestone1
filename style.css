@@ -1,8 +1,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-    margin: 0%;
-    padding: 150px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -10,8 +10,9 @@ body{
 .res-container{
     display: flex;
     background-color: white;
-    width:90%;
-    margin: 0 auto;
+    width:85%;
+    margin: 50px;
+    margin-left: 100px;
     border-radius: 20px;
     box-shadow: 0 0 80px rgba(20, 11, 11, 0.9);
 
@@ -64,6 +65,7 @@ h3{
     padding: 2%;
     margin: 20px 0 10px;
     color:black;
+    font-size: 20px;
     font-weight: 900;    
     margin-top: 5%;
     margin-bottom: 5%;
@@ -116,14 +118,15 @@ button:hover{
  @media (max-width: 700px) {
      .res-container{
          flex-direction: column;
+         margin: 0;
      }
  
      .left-sec, .right-section{
          width: 100%;        
          text-align: left;
-         min-width: none;
+         min-width: 260px;
          overflow-wrap: break-word;
-         overflow-x: hidden;
+         overflow-x: hidden;         
      }     
  }
  
